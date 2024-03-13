@@ -12,7 +12,7 @@ public class Coffee {
         this.name = name;
     }
 
-    Coffee(String name){
+    public Coffee(String name){
         this(UUID.randomUUID().toString(), name);
     }
 
